@@ -15,4 +15,3 @@ pip install -r requirements.txt
 python main.py
 ```
 
-(C) 2023 Sirgaliyev Alikhan, Yan Ulan
