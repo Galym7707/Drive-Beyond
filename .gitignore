@@ -1,0 +1,48 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / dist (если собирал exe/pyinstaller)
+build/
+dist/
+*.spec
+
+# Large ML / model files
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.ckpt
+
+# Archives / datasets
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.csv
+*.npy
+*.npz
+
+# Optional: ignore resource-heavy folders if they contain generated stuff
+# (раскомментируй, только если там реально большие генерируемые данные)
+# resources/
+# res/
